@@ -23,7 +23,11 @@ const Navbar = () => {
 
   const navItems = [
     { label: "Home", path: "/", icon: <Home className="h-4 w-4 mr-2" /> },
-    { label: "About", path: "/about", icon: <Info className="h-4 w-4 mr-2" /> },
+    {
+      label: "About",
+      path: "/about",
+      icon: <Info className="h-4 w-4 mr-2" />,
+    },
     {
       label: "Services",
       path: "#services",

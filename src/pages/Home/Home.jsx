@@ -3,6 +3,8 @@ import HeroSection from "./HeroSection";
 import AboutUs from "./AboutUs";
 import Services from "./Services";
 import WhyChooseUsPage from "./WhyChoose";
+import GalleryPage from "./GalleryPage";
+import HowItWorks from "./HowItWorks";
 
 function Home() {
   return (
@@ -10,6 +12,8 @@ function Home() {
       <HeroSection />
       <AboutUs />
       <Services />
+      <GalleryPage />
+      <HowItWorks />
       <WhyChooseUsPage />
     </div>
   );
