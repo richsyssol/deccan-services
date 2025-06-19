@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin } from "lucide-react";
 import PageSection from "../../components/Herosection/PageSection";
 import { useNavigate } from "react-router-dom";
 
-const Acrepair = () => {
+const WaterPurifierRepair = () => {
   const [hoveredItem, setHoveredItem] = useState(null);
   const navigate = useNavigate(); // Initialize the navigate function
 
@@ -30,7 +30,7 @@ const Acrepair = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white pt-16">
-      <PageSection page="acRepair" />
+      <PageSection page="WaterPurifierRepair" />
 
       <main className="container mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
         {/* Left Content */}
@@ -61,7 +61,7 @@ const Acrepair = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="text-2xl md:text-3xl font-bold text-blue-700 mb-6"
             >
-              AC Repair Service
+              Water Purifier Repair Service
             </motion.h2>
 
             <motion.div
@@ -71,22 +71,23 @@ const Acrepair = () => {
               className="space-y-4 text-gray-700"
             >
               <p>
-                Experience top-notch air conditioning repair services designed
-                to keep your home or office cool and comfortable. Our expert
-                technicians specialize in diagnosing and resolving all types of
-                AC issues, ensuring efficient and long-lasting solutions.
+                Ensure your family has access to clean and safe drinking water
+                with our professional water purifier repair services. Our
+                skilled technicians specialize in diagnosing and fixing all
+                types of water purifier issues, ensuring optimal performance and
+                longevity.
               </p>
               <p>
-                Whether it's poor cooling performance, refrigerant leaks,
-                unusual noises, or thermostat malfunctions, we are equipped to
-                handle it all. We work with all major AC brands and models,
-                providing reliable and timely service at competitive prices.
+                Whether it’s low water flow, filter replacement, leakage, or
+                unusual taste and odor, we can handle it all. We service all
+                major water purifier brands and models, providing reliable and
+                timely repairs at affordable prices.
               </p>
               <p>
-                Customer satisfaction is our top priority, and we ensure a
-                hassle-free experience with quick turnarounds, transparent
-                pricing, and expert care. Trust us to restore your AC's optimal
-                performance and keep you comfortable year-round.
+                Customer satisfaction is our priority. We offer quick service,
+                transparent pricing, and expert care to guarantee your water
+                purifier functions efficiently. Trust us to help you maintain a
+                healthy lifestyle with clean water.
               </p>
             </motion.div>
           </section>
@@ -98,7 +99,7 @@ const Acrepair = () => {
               className="rounded-xl overflow-hidden shadow-lg"
             >
               <img
-                src="https://www.shutterstock.com/image-photo/repairman-fix-air-conditioning-systems-600nw-2463365013.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJYmcvKDhIJKVqb7sTHNNCq4Eowl73PALiWQ&s"
                 alt="AC Repair Service"
                 className="w-full h-48 md:h-64 object-cover"
               />
@@ -108,7 +109,7 @@ const Acrepair = () => {
               className="rounded-xl overflow-hidden shadow-lg"
             >
               <img
-                src="https://i.pinimg.com/736x/b7/24/18/b72418e3be0d4dc6c4d57ad9c0208400.jpg"
+                src="https://www.botsindia.in/images/electric-ro-water-purifier.jpg"
                 alt="Technician Working"
                 className="w-full h-48 md:h-64 object-cover"
               />
@@ -124,7 +125,7 @@ const Acrepair = () => {
               viewport={{ once: true }}
               className="text-2xl md:text-3xl font-bold text-green-600 mb-6"
             >
-              Our AC Repair Process
+              Our Water Purifier Repair Process
             </motion.h2>
 
             <motion.div
@@ -135,17 +136,17 @@ const Acrepair = () => {
               className="space-y-4 text-gray-700"
             >
               <p>
-                We follow a systematic approach to diagnose and resolve your AC
-                issues efficiently:
+                We follow a detailed approach to ensure your water purifier is
+                repaired efficiently:
               </p>
 
               <ul className="list-disc pl-6 space-y-2">
                 {[
-                  "Comprehensive system diagnostics",
-                  "Identifying and fixing refrigerant leaks",
-                  "Cleaning or replacing air filters",
-                  "Testing and calibrating the thermostat",
-                  "Ensuring safe and efficient operation",
+                  "Diagnosing and fixing leakage issues",
+                  "Replacing or cleaning filters",
+                  "Addressing low water flow problems",
+                  "Testing and replacing RO/UV components",
+                  "Ensuring water quality and safety",
                 ].map((item, index) => (
                   <motion.li
                     key={index}
@@ -176,10 +177,10 @@ const Acrepair = () => {
                 transition={{ duration: 0.5, delay: 0.8 }}
                 viewport={{ once: true }}
               >
-                Regular AC maintenance is essential to prevent breakdowns and
-                extend the lifespan of your unit. Our services include cleaning,
-                filter replacement, and performance checks to ensure your system
-                operates at peak efficiency.
+                Regular maintenance of your water purifier is crucial to ensure
+                clean and safe water. Our services include filter replacement,
+                cleaning, and performance checks to keep your system functioning
+                at its best.
               </motion.p>
             </motion.div>
           </section>
@@ -193,8 +194,8 @@ const Acrepair = () => {
                 className="rounded-xl overflow-hidden shadow-lg"
               >
                 <img
-                  src="https://media.istockphoto.com/id/2154707821/photo/air-conditioner-service-the-air-conditioner-technician-is-using-a-gauge-to-measure-the.jpg?s=612x612&w=0&k=20&c=I-EvZdWGrPOTJcmFUYqCohZ3raVYnV-QFhS2CBiCI8Q="
-                  // src={`/ac-repair-${num}.jpg`}
+                  src="https://content.jdmagicbox.com/v2/comp/chennai/w4/044pxx44.xx44.101117120022.e5w4/catalogue/lifeguard-technologies-ayanavaram-chennai-water-purifier-repair-and-services-kvaFNuZroA.jpg"
+                  //src={`/ac-repair-${num}.jpg`}
                   alt={`AC Service ${num}`}
                   className="w-full h-48 object-cover"
                 />
@@ -212,10 +213,10 @@ const Acrepair = () => {
               className="bg-gradient-to-r from-yellow-100 to-red-50 p-6 rounded-xl shadow-lg border border-yellow-200"
             >
               <p className="text-lg text-gray-700">
-                Trust our certified technicians to provide high-quality AC
-                repair services tailored to meet your specific needs. Contact us
-                today to schedule your AC repair or maintenance service and
-                enjoy uninterrupted cooling.
+                Trust our certified technicians to deliver high-quality water
+                purifier repair services tailored to your needs. Contact us
+                today to schedule your repair or maintenance service and enjoy
+                safe, clean water every day.
               </p>
             </motion.div>
           </section>
@@ -326,4 +327,4 @@ const Acrepair = () => {
   );
 };
 
-export default Acrepair;
+export default WaterPurifierRepair;

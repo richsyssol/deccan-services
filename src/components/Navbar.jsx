@@ -15,6 +15,7 @@ import {
   ShowerHead,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,20 +34,29 @@ const Navbar = () => {
       path: "#services",
       icon: <Wrench className="h-4 w-4 mr-2" />,
       subItems: [
-        "AC Repair",
-        "Washing Machine Repair",
-        "Water Purifier Repair",
-        "Microwave Oven Repair",
+        { label: "AC Repair", path: "/services/ac-repair" },
+        {
+          label: "Washing Machine Repair",
+          path: "/services/washing-machine-repair",
+        },
+        {
+          label: "Water Purifier Repair",
+          path: "/services/water-purifier-repair",
+        },
+        {
+          label: "Microwave Oven Repair",
+          path: "/services/microwave-oven-repair",
+        },
       ],
     },
     {
       label: "Why Choose Us",
-      path: "#why-us",
+      path: "whychooseus",
       icon: <ShowerHead className="h-4 w-4 mr-2" />,
     },
     {
       label: "Contact",
-      path: "#contact",
+      path: "contactus",
       icon: <Phone className="h-4 w-4 mr-2" />,
     },
   ];
@@ -115,8 +125,8 @@ const Navbar = () => {
       >
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="text-2xl font-bold text-blue-700 flex items-center"
             >
               <img
@@ -124,7 +134,7 @@ const Navbar = () => {
                 alt=""
                 className="h-10 mr-2"
               />
-            </a>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
@@ -156,16 +166,14 @@ const Navbar = () => {
                         >
                           <div className="py-1">
                             {item.subItems.map((subItem) => (
-                              <a
-                                key={subItem}
-                                href={`#${subItem
-                                  .toLowerCase()
-                                  .replace(/\s+/g, "-")}`}
+                              <Link
+                                key={subItem.path}
+                                to={subItem.path}
                                 className="block px-4 py-2 text-gray-800 hover:bg-blue-50 hover:text-blue-600 transition-colors"
                                 onClick={() => setOpenDropdown(null)}
                               >
-                                {subItem}
-                              </a>
+                                {subItem.label}
+                              </Link>
                             ))}
                           </div>
                         </motion.div>
@@ -173,13 +181,13 @@ const Navbar = () => {
                     </AnimatePresence>
                   </>
                 ) : (
-                  <a
-                    href={item.path}
+                  <Link
+                    to={item.path}
                     className="flex items-center text-gray-800 hover:text-blue-600 transition-colors"
                   >
                     {item.icon}
                     {item.label}
-                  </a>
+                  </Link>
                 )}
               </div>
             ))}
@@ -220,9 +228,9 @@ const Navbar = () => {
                     alt="Deccan Services"
                     className="h-10 w-10"
                   />
-                  <a href="/" className="text-xl font-bold text-blue-600 ml-2">
+                  <Link to="/" className="text-xl font-bold text-blue-600 ml-2">
                     Deccan Services
-                  </a>
+                  </Link>
                 </div>
                 <button onClick={toggleMenu} className="text-gray-800">
                   <X size={24} />
@@ -260,30 +268,28 @@ const Navbar = () => {
                           >
                             <div className="py-2 space-y-2">
                               {item.subItems.map((subItem) => (
-                                <a
-                                  key={subItem}
-                                  href={`#${subItem
-                                    .toLowerCase()
-                                    .replace(/\s+/g, "-")}`}
+                                <Link
+                                  key={subItem.path}
+                                  to={subItem.path}
                                   className="block py-2 text-gray-600 hover:text-blue-600 transition-colors"
                                   onClick={toggleMenu}
                                 >
-                                  {subItem}
-                                </a>
+                                  {subItem.label}
+                                </Link>
                               ))}
                             </div>
                           </motion.div>
                         )}
                       </>
                     ) : (
-                      <a
-                        href={item.path}
+                      <Link
+                        to={item.path}
                         className="flex items-center py-3 text-gray-800 hover:text-blue-600 transition-colors"
                         onClick={toggleMenu}
                       >
                         {item.icon}
                         <span className="ml-2">{item.label}</span>
-                      </a>
+                      </Link>
                     )}
                   </div>
                 ))}

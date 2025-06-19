@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin } from "lucide-react";
 import PageSection from "../../components/Herosection/PageSection";
 import { useNavigate } from "react-router-dom";
 
-const Acrepair = () => {
+const MicrowaveOvenRepair = () => {
   const [hoveredItem, setHoveredItem] = useState(null);
   const navigate = useNavigate(); // Initialize the navigate function
 
@@ -30,7 +30,7 @@ const Acrepair = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white pt-16">
-      <PageSection page="acRepair" />
+      <PageSection page="MicrowaveOvenRepair" />
 
       <main className="container mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
         {/* Left Content */}
@@ -61,7 +61,7 @@ const Acrepair = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="text-2xl md:text-3xl font-bold text-blue-700 mb-6"
             >
-              AC Repair Service
+              Microwave Oven Repair Service
             </motion.h2>
 
             <motion.div
@@ -71,22 +71,23 @@ const Acrepair = () => {
               className="space-y-4 text-gray-700"
             >
               <p>
-                Experience top-notch air conditioning repair services designed
-                to keep your home or office cool and comfortable. Our expert
-                technicians specialize in diagnosing and resolving all types of
-                AC issues, ensuring efficient and long-lasting solutions.
+                Enjoy hassle-free microwave oven repair services designed to get
+                your appliance back in top working condition. Our expert
+                technicians specialize in diagnosing and fixing all types of
+                microwave oven issues to ensure efficient and long-lasting
+                results.
               </p>
               <p>
-                Whether it's poor cooling performance, refrigerant leaks,
-                unusual noises, or thermostat malfunctions, we are equipped to
-                handle it all. We work with all major AC brands and models,
-                providing reliable and timely service at competitive prices.
+                Whether it's heating issues, unusual noises, sparking, or door
+                malfunctions, we have the skills and tools to handle it all. We
+                service all major microwave brands and models, providing
+                reliable repairs at competitive prices.
               </p>
               <p>
-                Customer satisfaction is our top priority, and we ensure a
-                hassle-free experience with quick turnarounds, transparent
-                pricing, and expert care. Trust us to restore your AC's optimal
-                performance and keep you comfortable year-round.
+                Customer satisfaction is our top priority. We offer quick
+                turnarounds, transparent pricing, and expert care to ensure your
+                microwave oven operates like new again. Count on us to keep your
+                kitchen running smoothly.
               </p>
             </motion.div>
           </section>
@@ -98,7 +99,7 @@ const Acrepair = () => {
               className="rounded-xl overflow-hidden shadow-lg"
             >
               <img
-                src="https://www.shutterstock.com/image-photo/repairman-fix-air-conditioning-systems-600nw-2463365013.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3OU4jGTp7T66JU41HXy_9DvBuPJUGZJvEag&s"
                 alt="AC Repair Service"
                 className="w-full h-48 md:h-64 object-cover"
               />
@@ -108,7 +109,7 @@ const Acrepair = () => {
               className="rounded-xl overflow-hidden shadow-lg"
             >
               <img
-                src="https://i.pinimg.com/736x/b7/24/18/b72418e3be0d4dc6c4d57ad9c0208400.jpg"
+                src="https://t4.ftcdn.net/jpg/03/29/70/47/360_F_329704740_i0FpAgThkRmqLwCnWXxspFiade7i86Kg.jpg"
                 alt="Technician Working"
                 className="w-full h-48 md:h-64 object-cover"
               />
@@ -124,7 +125,7 @@ const Acrepair = () => {
               viewport={{ once: true }}
               className="text-2xl md:text-3xl font-bold text-green-600 mb-6"
             >
-              Our AC Repair Process
+              Our Microwave Oven Repair Process
             </motion.h2>
 
             <motion.div
@@ -135,17 +136,17 @@ const Acrepair = () => {
               className="space-y-4 text-gray-700"
             >
               <p>
-                We follow a systematic approach to diagnose and resolve your AC
-                issues efficiently:
+                We follow a comprehensive approach to diagnose and resolve
+                microwave oven problems:
               </p>
 
               <ul className="list-disc pl-6 space-y-2">
                 {[
-                  "Comprehensive system diagnostics",
-                  "Identifying and fixing refrigerant leaks",
-                  "Cleaning or replacing air filters",
-                  "Testing and calibrating the thermostat",
-                  "Ensuring safe and efficient operation",
+                  "Diagnosing heating and power issues",
+                  "Repairing or replacing faulty magnetrons",
+                  "Fixing door switches and latches",
+                  "Addressing electrical wiring issues",
+                  "Ensuring safety and optimal performance",
                 ].map((item, index) => (
                   <motion.li
                     key={index}
@@ -176,10 +177,10 @@ const Acrepair = () => {
                 transition={{ duration: 0.5, delay: 0.8 }}
                 viewport={{ once: true }}
               >
-                Regular AC maintenance is essential to prevent breakdowns and
-                extend the lifespan of your unit. Our services include cleaning,
-                filter replacement, and performance checks to ensure your system
-                operates at peak efficiency.
+                Regular maintenance of your microwave oven can prevent
+                breakdowns and extend its lifespan. Our services include
+                cleaning, part inspections, and performance checks to ensure
+                reliable operation.
               </motion.p>
             </motion.div>
           </section>
@@ -193,8 +194,8 @@ const Acrepair = () => {
                 className="rounded-xl overflow-hidden shadow-lg"
               >
                 <img
-                  src="https://media.istockphoto.com/id/2154707821/photo/air-conditioner-service-the-air-conditioner-technician-is-using-a-gauge-to-measure-the.jpg?s=612x612&w=0&k=20&c=I-EvZdWGrPOTJcmFUYqCohZ3raVYnV-QFhS2CBiCI8Q="
-                  // src={`/ac-repair-${num}.jpg`}
+                  src="https://callrandazzo.com/wp-content/uploads/2024/12/air-conditioning-services.webp"
+                  //src={`/ac-repair-${num}.jpg`}
                   alt={`AC Service ${num}`}
                   className="w-full h-48 object-cover"
                 />
@@ -212,10 +213,10 @@ const Acrepair = () => {
               className="bg-gradient-to-r from-yellow-100 to-red-50 p-6 rounded-xl shadow-lg border border-yellow-200"
             >
               <p className="text-lg text-gray-700">
-                Trust our certified technicians to provide high-quality AC
-                repair services tailored to meet your specific needs. Contact us
-                today to schedule your AC repair or maintenance service and
-                enjoy uninterrupted cooling.
+                Trust our certified technicians to deliver high-quality
+                microwave oven repair services tailored to your needs. Contact
+                us today to schedule your repair or maintenance service and
+                enjoy uninterrupted convenience in your kitchen.
               </p>
             </motion.div>
           </section>
@@ -297,9 +298,9 @@ const Acrepair = () => {
                 <div>
                   <h4 className="font-medium text-gray-700">Address</h4>
                   <p className="text-gray-600">
-                    Back Side Kakade Palace Mangal karyalaya, Sr,no, 2k/3b/1,
-                    shop no 8, maitri vishawa apartment, Karve Nagar, Pune,
-                    Maharashtra 411052
+                    Flat No. 7, Building No. 2, Datar Society, Mumbai - Agra
+                    Hwy, near Tractor House, Tigraniya Corner, Dwarka, Nashik,
+                    Maharashtra 422001
                   </p>
                 </div>
               </div>
@@ -326,4 +327,4 @@ const Acrepair = () => {
   );
 };
 
-export default Acrepair;
+export default MicrowaveOvenRepair;
