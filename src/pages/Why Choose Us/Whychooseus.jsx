@@ -70,8 +70,7 @@ const Whychooseus = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mb-4">
-            Why Choose{" "}
-            <span className="text-green-600">Vaishnavi AC Repair?</span>
+            Why Choose <span className="text-green-600">Deccan AC Repair?</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             We go above and beyond to deliver exceptional service that keeps

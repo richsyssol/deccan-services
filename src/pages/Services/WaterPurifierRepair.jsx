@@ -298,9 +298,9 @@ const WaterPurifierRepair = () => {
                 <div>
                   <h4 className="font-medium text-gray-700">Address</h4>
                   <p className="text-gray-600">
-                    Back Side Kakade Palace Mangal karyalaya, Sr,no, 2k/3b/1,
-                    shop no 8, maitri vishawa apartment, Karve Nagar, Pune,
-                    Maharashtra 411052
+                    Flat No. 7, Building No. 2, Datar Society, Mumbai - Agra
+                    Hwy, near Tractor House, Tigraniya Corner, Dwarka, Nashik,
+                    Maharashtra 422001
                   </p>
                 </div>
               </div>

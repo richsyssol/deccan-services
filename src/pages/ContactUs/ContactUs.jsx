@@ -70,7 +70,7 @@ const ContactUs = () => {
                       href="tel:+919325860758"
                       className="text-blue-600 hover:underline"
                     >
-                      +91 9325860758
+                      +91 9766242424
                     </a>
                   </div>
                 </div>
@@ -83,9 +83,9 @@ const ContactUs = () => {
                   <div>
                     <h3 className="font-semibold text-gray-700">Address</h3>
                     <p className="text-gray-600">
-                      Back Side Kakade Palace Mangal karyalaya, Sr,no, 2k/3b/1,
-                      shop no 8, maitri vishawa apartment, Karve Nagar, Pune,
-                      Maharashtra 411052
+                      Flat No. 7, Building No. 2, Datar Society, Mumbai - Agra
+                      Hwy, near Tractor House, Tigraniya Corner, Dwarka, Nashik,
+                      Maharashtra 422001
                     </p>
                   </div>
                 </div>
@@ -101,7 +101,7 @@ const ContactUs = () => {
                       href="mailto:info@vaishnaviacrepairandservice.co.in"
                       className="text-blue-600 hover:underline"
                     >
-                      info@vaishnaviacrepairandservice.co.in
+                      info@deccanservices.com
                     </a>
                   </div>
                 </div>
