@@ -69,13 +69,13 @@ const Whychooseus = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mb-4">
+          {/* <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mb-4 pt-6">
             Why Choose <span className="text-green-600">Deccan AC Repair?</span>
-          </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          </h2> */}
+          {/* <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             We go above and beyond to deliver exceptional service that keeps
             your cooling systems running smoothly all year round.
-          </p>
+          </p> */}
         </motion.div>
 
         {/* Reasons with Images - Alternating Layout */}

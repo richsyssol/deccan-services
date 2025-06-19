@@ -139,7 +139,7 @@ const Services = () => {
           className="text-center mt-16"
         >
           <a
-            href="#contact"
+            href="/contactus"
             className="inline-block px-8 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-blue-500/20"
           >
             Book Service Now

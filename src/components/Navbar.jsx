@@ -16,6 +16,8 @@ import {
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
+import Logo from "./Logo";
+import { logo } from "../../public";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -129,11 +131,7 @@ const Navbar = () => {
               to="/"
               className="text-2xl font-bold text-blue-700 flex items-center"
             >
-              <img
-                src="https://via.placeholder.com/150x50?text=Deccan+Services"
-                alt=""
-                className="h-10 mr-2"
-              />
+              <img src={logo} alt="" className="h-10 mr-2" />
             </Link>
           </div>
 
@@ -223,11 +221,7 @@ const Navbar = () => {
             <div className="container mx-auto px-4 py-6">
               <div className="flex justify-between items-center mb-8">
                 <div className="flex items-center">
-                  <img
-                    src="https://via.placeholder.com/40?text=DS"
-                    alt="Deccan Services"
-                    className="h-10 w-10"
-                  />
+                  <img src={logo} alt="Deccan Services" className="h-10 w-10" />
                   <Link to="/" className="text-xl font-bold text-blue-600 ml-2">
                     Deccan Services
                   </Link>
