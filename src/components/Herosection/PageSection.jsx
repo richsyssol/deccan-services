@@ -21,7 +21,7 @@ const PageSection = ({ page }) => {
 
       {/* Content Wrapper */}
       <div className="relative z-10 text-center px-6 lg:px-20">
-        <h1 className="text-5xl lg:text-7xl font-extrabold drop-shadow-lg">
+        <h1 className="text-4xl lg:text-6xl font-extrabold drop-shadow-lg">
           {data.title}
         </h1>
         <p className="text-lg lg:text-xl mt-4 max-w-2xl mx-auto font-light drop-shadow-lg">
