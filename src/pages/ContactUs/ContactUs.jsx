@@ -180,7 +180,7 @@ const ContactUs = () => {
             viewport={{ once: true }}
             className="lg:w-2/3"
           >
-            <div className="bg-white rounded-xl shadow-lg p-8">
+            <div className="bg-white rounded-xl shadow-lg p-8 h-full">
               <h2 className="text-2xl font-bold text-blue-800 mb-2">
                 Contact With Us!
               </h2>
@@ -188,7 +188,7 @@ const ContactUs = () => {
                 Fill out the form below and we'll get back to you soon
               </p>
 
-              <form onSubmit={handleSubmit} className="space-y-5">
+              <form onSubmit={handleSubmit} className="space-y-12">
                 <motion.div whileHover={{ scale: 1.01 }}>
                   <label htmlFor="name" className="block text-gray-700 mb-2">
                     Name*
