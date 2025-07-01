@@ -139,9 +139,9 @@ const Footer = () => {
             <li className="flex items-start gap-3">
               <IoLocationOutline size={20} className="text-blue-400 mt-1" />
               <span>
-                Flat No. 7, Building No. 2, Datar Society, Mumbai - Agra Hwy,
-                near Tractor House, Tigraniya Corner, Dwarka, Nashik,
-                Maharashtra 422001
+                Nashik, Maharashtra Flat No. 7, Building No. 2, Datar Society,
+                Mumbai - Agra Hwy, near Tractor House, Tigraniya Corner, Dwarka,
+                Nashik, Maharashtra 422001
               </span>
             </li>
             <li className="flex items-center gap-3">
@@ -153,6 +153,29 @@ const Footer = () => {
                 <div className="flex gap-2 mt-1">
                   <a
                     href="https://wa.me/919766242424"
+                    className="text-xs bg-green-900 text-green-300 px-2 py-1 rounded flex items-center gap-1"
+                  >
+                    <FaWhatsapp size={12} /> WhatsApp
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li className="flex items-start gap-3">
+              <IoLocationOutline size={20} className="text-blue-400 mt-1" />
+              <span>
+                Vadodra, Gujarat Fathe Ganj Janta Seri, near Jais Colony, Pin
+                390002 Vadodra | Dhaboi | Bodeli | Chota Udaipur
+              </span>
+            </li>
+            <li className="flex items-center gap-3">
+              <IoCallOutline size={20} className="text-blue-400" />
+              <div>
+                <a href="tel:+919766242424" className="hover:text-blue-400">
+                  +91 9422294070
+                </a>
+                <div className="flex gap-2 mt-1">
+                  <a
+                    href="https://wa.me/919422294070"
                     className="text-xs bg-green-900 text-green-300 px-2 py-1 rounded flex items-center gap-1"
                   >
                     <FaWhatsapp size={12} /> WhatsApp
