@@ -90,6 +90,38 @@ const ContactUs = () => {
                   </div>
                 </div>
 
+                {/* Address Gujarat */}
+
+                <div className="flex items-start gap-4">
+                  <div className="p-3 bg-blue-100 rounded-full text-blue-600">
+                    <Phone className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-700">
+                      Phone Number
+                    </h3>
+                    <a
+                      href="tel:+919325860758"
+                      className="text-blue-600 hover:underline"
+                    >
+                      +91 9422294070
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="p-3 bg-green-100 rounded-full text-green-600">
+                    <MapPin className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-700">Address</h3>
+                    <p className="text-gray-600">
+                      Vadodra, Gujarat Fathe Ganj Janta Seri, near Jais Colony,
+                      Pin 390002 Vadodra | Dhaboi | Bodeli | Chota | Udaipur
+                    </p>
+                  </div>
+                </div>
+
                 {/* Email */}
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-red-100 rounded-full text-red-600">
